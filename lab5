@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Music Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#genres">Genres</a></li>
+                <li><a href="#artists">Artists</a></li>
+                <li><a href="#instruments">Instruments</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="genres" class="flex-container">
+        <h2>Popular Genres</h2>
+        <div class="genre-card flex-item">
+            <h3>Rock</h3>
+            <p>Explore the world of rock music</p>
+            <a href="#">Learn More</a>
+        </div>
+        <div class="genre-card flex-item">
+            <h3>Jazz</h3>
+            <p>Discover the smooth sounds of jazz</p>
+            <a href="#">Learn More</a>
+        </div>
+        
+    </section>
+
+    <section id="artists" class="flex-container">
+        <h2>Featured Artists</h2>
+        <div class="artist-card flex-item">
+            <h3>John Lennon</h3>
+            <p>Legendary singer-songwriter</p>
+            <a href="#">View Profile</a>
+        </div>
+        <div class="artist-card flex-item">
+            <h3>Beyoncé</h3>
+            <p>Queen of pop</p>
+            <a href="#">View Profile</a>
+        </div>
+        
+    </section>
+
+    <section id="instruments" class="flex-container">
+        <h2>Featured Instruments</h2>
+        <div class="instrument-card flex-item">
+            <h3>Guitar</h3>
+            <p>Master the six-string wonder</p>
+            <a href="#">Learn More</a>
+        </div>
+        <div class="instrument-card flex-item">
+            <h3>Piano</h3>
+            <p>Unleash your musical creativity</p>
+            <a href="#">Learn More</a>
+        </div>
+        
+    </section>
+
+    <footer>
+        <p>&copy; 2022 Music Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
